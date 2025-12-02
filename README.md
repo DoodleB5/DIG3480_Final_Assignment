@@ -9,6 +9,7 @@ John Lemon's Haunted Jaunt
 
 
 ***Bianca***
+
 **Modifications Made:**
 
 
@@ -19,6 +20,7 @@ John Lemon's Haunted Jaunt
 No, I don't plan on working on this project after this assignment.
 
 ***Arya***
+
 **Modifications Made:**
 
 
