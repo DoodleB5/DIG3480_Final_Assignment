@@ -11,13 +11,13 @@ https://drive.google.com/file/d/186ZsfptOhu019stHPaYkZOPNh8kPWhpS/view?usp=drive
 ***Bianca***
 ---
 **Modifications Made:** <br>
-
+I made the minor modifications to our game. I changed the camera perspective from a top-down perspective to a third-person over-the-shoulder perspective. In order to get this to work properly, I had to change the way the player movement script originally worked so that the character moves forwards and backwards but rotates using side inputs. I also added extra camera rotation that can be used by the o and p keys. This rotates the camera more to either left or right so that the player can have more visibility.
 
 **Biggest Challenge:** <br>
-
+I struggled getting any of my changes to work at all. After changing the perspective of the virtual camera, I struggled to get movement to work locally based on the direction your character faces rather than globally. Originally, the character always moved in a specific direction regardless of where the character looked. For example, w was always north and d was always east; when moving east with d/right, you turn your character side to side with w/up and s/down. It took a lot of experimentation to fix this issue until I finally settled on making w/up forwards and s/down backwards while the JohnLemon rotates in place with a/left and s/right. Until I got to that point, I was struggling with getting the character to move proper and the camera shaking. After that, I had to figure out how to get the extra camera movement to work while keeping JohnLemon in frame. Instead of letting the camera, which is offset from JohnLemon, rotate all the way around, I used clamps to limit the camera's rotation. I also realized that I had two camera controlling scripts that caused issues when both were active, so I kept only one active in the final build. The issues I had with the camera were both figuring out the issues within the script and messing with the settings in the cinemachine virtual camera.
 
 **Continue Working On Assignment:** <br>
-No, I don't plan on working on this project after this assignment.
+I don't plan on working on this project after this assignment. However, if I were to go back to this project, I would add UI and different screens. I would add a title screen with a play button, options menu, and an exit button; a pause menu to change settings and view the controls; and an end screen that allows you to restart the game after winning or exit the game. I would also add a HUD that shows a timer for how long you've played and when you can use your invisibility ability; for the invisibility ability, I would like to show whether or not it's ready to use, how long you're able to use the ability, and how long the cooldown takes.
 
 ***Arya***
 ---
