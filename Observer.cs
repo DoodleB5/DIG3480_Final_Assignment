@@ -7,6 +7,7 @@ public class Observer : MonoBehaviour
     public Transform player;
     public GameEnding gameEnding;
 
+    // added code
     public PlayerInvisibility playerInvisibility;
 
     bool m_IsPlayerInRange;
@@ -49,3 +50,4 @@ public class Observer : MonoBehaviour
         }
     }
 }
+
