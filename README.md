@@ -5,8 +5,8 @@ John Lemon's Haunted Jaunt
 Bianca Bowonthamachakr <br>
 Arya Kamat
 
-**Google Drive Link:**
-
+**Google Drive Link:** <br>
+https://drive.google.com/file/d/186ZsfptOhu019stHPaYkZOPNh8kPWhpS/view?usp=drive_link
 
 ***Bianca***
 ---
